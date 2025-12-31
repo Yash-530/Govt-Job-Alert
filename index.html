@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarkari Naukri - Live Government Jobs Portal 2025</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-content">
+                <div class="logo">🇮🇳 SarkariNaukri.in</div>
+                <div class="live-indicator">
+                    <div class="pulse-dot"></div>
+                    <span class="live-text">LIVE</span>
+                    <span class="date-text">| Dec 30, 2025</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-number" id="totalJobs">28</div>
+                <div class="stat-label">Active Jobs Today</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="newJobs">15</div>
+                <div class="stat-label">New This Week</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number" id="totalPosts">48,847</div>
+                <div class="stat-label">Total Vacancies</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-number">Dec 31</div>
+                <div class="stat-label">Closing Soon</div>
+            </div>
+        </div>
+
+        <div class="filters">
+            <div class="filter-section">
+                <label class="filter-label">🏢 Organization</label>
+                <div class="filter-chips" id="orgFilters">
+                    <button class="chip active" data-org="all">All</button>
+                    <button class="chip" data-org="UPSC">UPSC</button>
+                    <button class="chip" data-org="SSC">SSC</button>
+                    <button class="chip" data-org="RRB">RRB</button>
+                    <button class="chip" data-org="INDIAN ARMY">Army</button>
+                    <button class="chip" data-org="INDIAN NAVY">Navy</button>
+                    <button class="chip" data-org="INDIAN AIR FORCE">Air Force</button>
+                    <button class="chip" data-org="DRDO">DRDO</button>
+                    <button class="chip" data-org="BARC">BARC</button>
+                    <button class="chip" data-org="ISRO">ISRO</button>
+                    <button class="chip" data-org="BANKING">Banking</button>
+                    <button class="chip" data-org="PSU">PSU</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <label class="filter-label">🎓 Qualification</label>
+                <div class="filter-chips" id="qualFilters">
+                    <button class="chip active" data-qual="all">All</button>
+                    <button class="chip" data-qual="10th">10th Pass</button>
+                    <button class="chip" data-qual="12th">12th Pass</button>
+                    <button class="chip" data-qual="Diploma">Diploma</button>
+                    <button class="chip" data-qual="Graduation">Graduation</button>
+                    <button class="chip" data-qual="Post Graduation">Post Graduation</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="jobs-grid" id="jobsGrid"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
